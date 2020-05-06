@@ -1,4 +1,4 @@
 class Chart < ApplicationRecord
     belongs_to :collection
-    belongs_to :chart
+    belongs_to :country
 end
