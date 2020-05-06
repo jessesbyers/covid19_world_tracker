@@ -1,5 +1,6 @@
 class Collection < ApplicationRecord
     has_many :charts
 
-    # add backend validations
+    validates :name, presence: true
+    validates :summary, presence: true
 end
